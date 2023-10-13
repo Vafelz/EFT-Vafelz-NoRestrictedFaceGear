@@ -12,7 +12,9 @@ class UnrestrictedEyeWear {
       const itemDB = tables.templates.items;
       for (let item in itemDB) {
          // Find all facecovers and unblocks eyewear
-         if (itemDB[item]._parent == "5448e5724bdc2ddf718b4568" && itemDB[item]_props.BlocksEyewear) {
+         if (itemDB[item]._parent == "5448e5724bdc2ddf718b4568" && itemDB[item]._props.BlocksEyewear) {
+            itemDB[item]._props.BlocksEyewear = false;
+         }if (itemDB[item]._parent == "5a341c4686f77469e155819e" && itemDB[item]._props.BlocksEyewear) {
             itemDB[item]._props.BlocksEyewear = false;
          }
       }
