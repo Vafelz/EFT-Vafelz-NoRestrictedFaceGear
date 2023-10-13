@@ -1,0 +1,20 @@
+{
+   :"name": "VAFELZ-UnestrictedEyeWear",
+   "version": "1.0.0",
+   "main": "src/mod.js",
+   "license": "MIT",
+   "author": "VAFELZ",
+   "akiVersion": "3.6.1",
+   "scripts": {
+      "setup": "npm i",
+      "build": "node ./packageBuild.ts"
+   },
+   "devDependencies": {
+      "@types/node": "18.17.1",
+      "@typescript-eslint/eslint-plugin": "6.7.5",
+      "@typescript-eslint/parser": "6.7.5",
+      "eslint": "8.51.0",
+      "tsyringe": "4.8.0",
+      "typescript": "5.2.2"
+   }
+}
